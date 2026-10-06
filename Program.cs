@@ -2,9 +2,12 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static int Add(int x, int y)
         {
-            Console.WriteLine("Hello, World!");
+            return x + y
         }
+
+        int result = Add(2, 7);
+        Console.WriteLine($"{result}");
     }
 }
